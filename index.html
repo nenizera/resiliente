@@ -20,8 +20,8 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">INÍCIO</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PREFÁCIO</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MÚSICA</a>
+    <a href="#PREFÁCIO" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PREFÁCIO</a>
+    <a href="#MÚSICA" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MÚSICA</a>
     <!--<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>-->
     <!--<div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MAIS<i class="fa fa-caret-down"></i></button>     
@@ -42,13 +42,13 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJETO</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DATAS</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INÍCIO</a>
+  <a href="#PREFÁCIO" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PREFÁCIO</a>
+  <a href="#MÚSICA" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MÚSICA</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
-<!-- Page content -->
+<!-- INÍCIO -->
 <div class="w3-content" style="max-width:100%;height:auto;margin-top:auto;margin-bottom:auto">
 
   <!-- Automatic Slideshow Images -->
@@ -81,8 +81,8 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <!-- PREFÁCIO -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="PREFÁCIO">
     <h2 class="w3-wide">Projeto</h2>
     <p class="w3-opacity">RESILIENTE</p>
     <p class="w3-justify">Nossas experiências individuais são únicas, nossas emoções são universais. Perante a inevitabilidade do sofrimento nesse mundo muitas vezes ferido, nosso coração tem uma voz, e a música é um método pelo qual essa voz se manifesta.</p>
@@ -101,11 +101,11 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+  <!-- MÚSICA -->
+  <div class="w3-black" id="MÚSICA">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1400px">
       <h2 class="w3-wide w3-center">MÚSICA</h2>
-      <p class="w3-opacity w3-center">Escute o nosso EP na integra!</p><br>
+      <p class="w3-opacity w3-center">Escute o nosso primeiro EP na integra!</p><br>
 
       <!--<ul class="w3-ul w3-border w3-white w3-text-grey">
         <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
@@ -116,8 +116,8 @@ body {font-family: "Lato", sans-serif}
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
           <!--<img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
-          <iframe width="300" height="380" src="https://www.youtube.com/embed/jM9llwGSSdI?si=Jn3hs7yWcZ5_mmmV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="w3-container w3-white">
+            <iframe width="300" height="380" src="https://www.youtube.com/embed/jM9llwGSSdI?si=Jn3hs7yWcZ5_mmmV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p><b>Neni Talk</b></p>
             <p class="w3-opacity">Podcast</p>
             <p>Mensagem aleatória aqui.</p>
@@ -136,7 +136,8 @@ body {font-family: "Lato", sans-serif}
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <!--<img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">-->
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1946825363&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ca-hed-cobraz" title="hi-c" target="_blank" style="color: #cccccc; text-decoration: none;">hi-c</a> · <a href="https://soundcloud.com/ca-hed-cobraz/h3ll-c4t-d0dg3-prod-kyuro-x-1sadboii" title="H3lL C4t D0dG3 (prod. kyuro x 1sadboii)" target="_blank" style="color: #cccccc; text-decoration: none;">H3lL C4t D0dG3 (prod. kyuro x 1sadboii)</a></div>
           <div class="w3-container w3-white">
             <p><b>San Francisco</b></p>
             <p class="w3-opacity">Sun 29 Nov 2016</p>

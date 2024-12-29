@@ -991,7 +991,7 @@ a {
 }
 
 .w3-container,.w3-panel {
-    padding: 0.01em 16px
+    padding: 0.01em 8px
 }
 
 .w3-panel {
@@ -1213,7 +1213,7 @@ a {
 }
 
 .w3-medium {
-    font-size: 15px!important
+    font-size: 12px!important
 }
 
 .w3-large {
@@ -1341,7 +1341,7 @@ a {
 
 .w3-padding-32 {
     padding-top: 8px!important;
-    padding-bottom: 32px!important
+    padding-bottom: 50px!important
 }
 
 .w3-padding-48 {
